@@ -1,0 +1,16 @@
+PODS:
+  - APImageMarker (0.1.0)
+
+DEPENDENCIES:
+  - APImageMarker (from `../`)
+
+EXTERNAL SOURCES:
+  APImageMarker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  APImageMarker: aa2841d73a6c28dee40390c9e7cc60bfc7fd3cc4
+
+PODFILE CHECKSUM: 3226478c472fc33223338580ad075f47ea694e11
+
+COCOAPODS: 1.6.0

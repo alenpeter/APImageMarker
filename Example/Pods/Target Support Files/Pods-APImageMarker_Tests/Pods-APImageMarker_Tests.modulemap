@@ -1,0 +1,6 @@
+framework module Pods_APImageMarker_Tests {
+  umbrella header "Pods-APImageMarker_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510F90587662BADE29226D871BCC99CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9CBD0C631567E00E941DE961F15F85F4 /* Pods-APImageMarker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 377274BAFD6A2EF1079F182CD0AFDCBF /* Pods-APImageMarker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A90A9170B4280E6140B74C3ACB173826 /* APImageMarker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7EE2B26767C34F101497BAB0E87DAE /* APImageMarker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55AC6075DE25E796940451469B09CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F02047EF84CC7F426CA7BA11134CA138 /* Pods-APImageMarker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 654F7E66CBA563F81E08E73A5B9443AB /* Pods-APImageMarker_Tests-dummy.m */; };
+		F7F3EB432230653800F749C4 /* APImageMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F3EB422230653800F749C4 /* APImageMarker.swift */; };
+		FEE433F5AF9EBA9B628F243B632996A6 /* APImageMarker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B146E9BC28F030F280D3F3E071686 /* APImageMarker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DBA3F51F30C249E410EB044A687A3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC076D75D05BE55010447FFB278F814;
+			remoteInfo = APImageMarker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		141181E90BE9D86E4353A9B1FA4ECA17 /* APImageMarker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = APImageMarker.modulemap; sourceTree = "<group>"; };
+		1D0B146E9BC28F030F280D3F3E071686 /* APImageMarker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APImageMarker-dummy.m"; sourceTree = "<group>"; };
+		377274BAFD6A2EF1079F182CD0AFDCBF /* Pods-APImageMarker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APImageMarker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3C834FE508645651D0DFB7C7C91B6348 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		478996D64C4426A3FDDD7FF86AC8058C /* Pods-APImageMarker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APImageMarker_Tests.modulemap"; sourceTree = "<group>"; };
+		654F7E66CBA563F81E08E73A5B9443AB /* Pods-APImageMarker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APImageMarker_Tests-dummy.m"; sourceTree = "<group>"; };
+		66A44E21F215201997AB92C5B5FF4354 /* Pods-APImageMarker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APImageMarker_Tests-Info.plist"; sourceTree = "<group>"; };
+		6A596D326E1AD9ED8B1939BD16BF2B52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		757FBF5AE98204C4EF40E8857CE07AF3 /* Pods-APImageMarker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APImageMarker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		804506A7984C542CD21DA2DD4547621A /* APImageMarker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APImageMarker-prefix.pch"; sourceTree = "<group>"; };
+		87F180845183D293BBCDDFBD70231854 /* Pods-APImageMarker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APImageMarker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8CA3FE9386BB86B3F1ED35C5173D5223 /* APImageMarker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APImageMarker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3CC9782C5E2CE05B75A6E96335E4D93 /* Pods-APImageMarker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APImageMarker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B61763BD131ADD99A79DBA44BD7B00C3 /* APImageMarker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "APImageMarker-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB6F481789E16D03FA8801098C6C5ACF /* APImageMarker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APImageMarker.xcconfig; sourceTree = "<group>"; };
+		CEEDD409E79EF813D3D9CF20E99DDE92 /* APImageMarker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = APImageMarker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DD7EE2B26767C34F101497BAB0E87DAE /* APImageMarker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APImageMarker-umbrella.h"; sourceTree = "<group>"; };
+		E197359DB33209C8791D2EA42D8E91DA /* Pods_APImageMarker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APImageMarker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C5169D010C4820A41E8CCAB2D2363A /* Pods-APImageMarker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APImageMarker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F3EB422230653800F749C4 /* APImageMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APImageMarker.swift; path = APImageMarker/Classes/APImageMarker.swift; sourceTree = "<group>"; };
+		FD3E75C33995EA743A2E16513D6F1F8B /* Pods-APImageMarker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APImageMarker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0A9249356C5564E117B0D5E7094DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55AC6075DE25E796940451469B09CDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D6C64A2A73672C7F26598A5C02B9D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510F90587662BADE29226D871BCC99CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221AAB06BB23B1C48D09180C828BE82A /* Pods-APImageMarker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				478996D64C4426A3FDDD7FF86AC8058C /* Pods-APImageMarker_Tests.modulemap */,
+				B3CC9782C5E2CE05B75A6E96335E4D93 /* Pods-APImageMarker_Tests-acknowledgements.markdown */,
+				FD3E75C33995EA743A2E16513D6F1F8B /* Pods-APImageMarker_Tests-acknowledgements.plist */,
+				654F7E66CBA563F81E08E73A5B9443AB /* Pods-APImageMarker_Tests-dummy.m */,
+				87F180845183D293BBCDDFBD70231854 /* Pods-APImageMarker_Tests-frameworks.sh */,
+				66A44E21F215201997AB92C5B5FF4354 /* Pods-APImageMarker_Tests-Info.plist */,
+				377274BAFD6A2EF1079F182CD0AFDCBF /* Pods-APImageMarker_Tests-umbrella.h */,
+				E9C5169D010C4820A41E8CCAB2D2363A /* Pods-APImageMarker_Tests.debug.xcconfig */,
+				757FBF5AE98204C4EF40E8857CE07AF3 /* Pods-APImageMarker_Tests.release.xcconfig */,
+			);
+			name = "Pods-APImageMarker_Tests";
+			path = "Target Support Files/Pods-APImageMarker_Tests";
+			sourceTree = "<group>";
+		};
+		571AF2B96EEE98CEDFDF1ED94B42457D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD409E79EF813D3D9CF20E99DDE92 /* APImageMarker.podspec */,
+				3C834FE508645651D0DFB7C7C91B6348 /* LICENSE */,
+				6A596D326E1AD9ED8B1939BD16BF2B52 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		62287822A179F2B09EED81A6806D29A9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				221AAB06BB23B1C48D09180C828BE82A /* Pods-APImageMarker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		62722DCBD5779D29279B66A4F534DD9D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD94AD30B85C37DCA4E7A368EE44DE /* APImageMarker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A2FD94AD30B85C37DCA4E7A368EE44DE /* APImageMarker */ = {
+			isa = PBXGroup;
+			children = (
+				F7F3EB422230653800F749C4 /* APImageMarker.swift */,
+				571AF2B96EEE98CEDFDF1ED94B42457D /* Pod */,
+				A8D175C521E0404BE9AA0789F40BD199 /* Support Files */,
+			);
+			name = APImageMarker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A8D175C521E0404BE9AA0789F40BD199 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				141181E90BE9D86E4353A9B1FA4ECA17 /* APImageMarker.modulemap */,
+				CB6F481789E16D03FA8801098C6C5ACF /* APImageMarker.xcconfig */,
+				1D0B146E9BC28F030F280D3F3E071686 /* APImageMarker-dummy.m */,
+				B61763BD131ADD99A79DBA44BD7B00C3 /* APImageMarker-Info.plist */,
+				804506A7984C542CD21DA2DD4547621A /* APImageMarker-prefix.pch */,
+				DD7EE2B26767C34F101497BAB0E87DAE /* APImageMarker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/APImageMarker";
+			sourceTree = "<group>";
+		};
+		B9104B13C04BE4A48CCF57BF29BA8CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CA3FE9386BB86B3F1ED35C5173D5223 /* APImageMarker.framework */,
+				E197359DB33209C8791D2EA42D8E91DA /* Pods_APImageMarker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				62722DCBD5779D29279B66A4F534DD9D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B9104B13C04BE4A48CCF57BF29BA8CF8 /* Products */,
+				62287822A179F2B09EED81A6806D29A9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		277E0617243DF9A2EF0B5DAEA98D6D3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A9170B4280E6140B74C3ACB173826 /* APImageMarker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6607F48B2CAF97ECF0B05DA91E0CEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBD0C631567E00E941DE961F15F85F4 /* Pods-APImageMarker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DC076D75D05BE55010447FFB278F814 /* APImageMarker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAE22F4B05B20261A9EE107B2E343B4 /* Build configuration list for PBXNativeTarget "APImageMarker" */;
+			buildPhases = (
+				277E0617243DF9A2EF0B5DAEA98D6D3F /* Headers */,
+				5576A2F104CB9E8B522AE6DBE1A88F64 /* Sources */,
+				F0D6C64A2A73672C7F26598A5C02B9D6 /* Frameworks */,
+				10F5E15888CB7900B3DB6E5C8544B826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APImageMarker;
+			productName = APImageMarker;
+			productReference = 8CA3FE9386BB86B3F1ED35C5173D5223 /* APImageMarker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		686E669958BC58C41BAA53B20D729B4A /* Pods-APImageMarker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216F68F073A98CBFE31B0BA607952AE9 /* Build configuration list for PBXNativeTarget "Pods-APImageMarker_Tests" */;
+			buildPhases = (
+				8A6607F48B2CAF97ECF0B05DA91E0CEF /* Headers */,
+				704507848497EE0BAADE22F16D023223 /* Sources */,
+				BB0A9249356C5564E117B0D5E7094DAB /* Frameworks */,
+				91D54799662D68B2AEF72B713D86155C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510DB6F999FEF61BB1E5AF0F7789DA5C /* PBXTargetDependency */,
+			);
+			name = "Pods-APImageMarker_Tests";
+			productName = "Pods-APImageMarker_Tests";
+			productReference = E197359DB33209C8791D2EA42D8E91DA /* Pods_APImageMarker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					1DC076D75D05BE55010447FFB278F814 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B9104B13C04BE4A48CCF57BF29BA8CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DC076D75D05BE55010447FFB278F814 /* APImageMarker */,
+				686E669958BC58C41BAA53B20D729B4A /* Pods-APImageMarker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10F5E15888CB7900B3DB6E5C8544B826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D54799662D68B2AEF72B713D86155C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5576A2F104CB9E8B522AE6DBE1A88F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F3EB432230653800F749C4 /* APImageMarker.swift in Sources */,
+				FEE433F5AF9EBA9B628F243B632996A6 /* APImageMarker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		704507848497EE0BAADE22F16D023223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02047EF84CC7F426CA7BA11134CA138 /* Pods-APImageMarker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		510DB6F999FEF61BB1E5AF0F7789DA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APImageMarker;
+			target = 1DC076D75D05BE55010447FFB278F814 /* APImageMarker */;
+			targetProxy = 9DBA3F51F30C249E410EB044A687A3AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80766B55A251DC2735333662EFE52691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6F481789E16D03FA8801098C6C5ACF /* APImageMarker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/APImageMarker/APImageMarker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APImageMarker/APImageMarker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APImageMarker/APImageMarker.modulemap";
+				PRODUCT_MODULE_NAME = APImageMarker;
+				PRODUCT_NAME = APImageMarker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B319E1B98B2F2E69F1EEF45073A59487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757FBF5AE98204C4EF40E8857CE07AF3 /* Pods-APImageMarker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APImageMarker_Tests/Pods-APImageMarker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APImageMarker_Tests/Pods-APImageMarker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F5B502D2C9430E11744A9338C1ACD224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6F481789E16D03FA8801098C6C5ACF /* APImageMarker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/APImageMarker/APImageMarker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APImageMarker/APImageMarker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APImageMarker/APImageMarker.modulemap";
+				PRODUCT_MODULE_NAME = APImageMarker;
+				PRODUCT_NAME = APImageMarker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEB111520D98529671E7E05BC95EADA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C5169D010C4820A41E8CCAB2D2363A /* Pods-APImageMarker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APImageMarker_Tests/Pods-APImageMarker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APImageMarker_Tests/Pods-APImageMarker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		216F68F073A98CBFE31B0BA607952AE9 /* Build configuration list for PBXNativeTarget "Pods-APImageMarker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB111520D98529671E7E05BC95EADA1 /* Debug */,
+				B319E1B98B2F2E69F1EEF45073A59487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAE22F4B05B20261A9EE107B2E343B4 /* Build configuration list for PBXNativeTarget "APImageMarker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80766B55A251DC2735333662EFE52691 /* Debug */,
+				F5B502D2C9430E11744A9338C1ACD224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

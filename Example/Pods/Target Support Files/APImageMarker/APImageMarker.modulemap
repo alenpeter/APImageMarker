@@ -1,0 +1,6 @@
+framework module APImageMarker {
+  umbrella header "APImageMarker-umbrella.h"
+
+  export *
+  module * { export * }
+}

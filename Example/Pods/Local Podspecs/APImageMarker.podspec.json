@@ -1,0 +1,22 @@
+{
+  "name": "APImageMarker",
+  "version": "0.1.0",
+  "summary": "A short description of APImageMarker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alenpeter/APImageMarker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alenpeter": "alenpeter@live.com"
+  },
+  "source": {
+    "git": "https://github.com/alenpeter/APImageMarker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "APImageMarker/Classes/**/*"
+}
