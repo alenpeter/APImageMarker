@@ -1,0 +1,6 @@
+use_frameworks!
+target 'APImageMarker_Tests' do
+  pod 'APImageMarker', :path => '../'
+  
+  
+end
